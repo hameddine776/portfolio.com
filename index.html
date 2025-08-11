@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio développeur web junior à Dakar: sites vitrines, boutiques en ligne, rendez-vous, menus. HTML, CSS, Bootstrap, PHP, GitHub."
+    />
+    <title>MbodjiDeveloppeur/></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#accueil">MbodjiDeveloppeur/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#accueil">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#apropos">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parcours">Parcours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#competences">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projets">Projets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <h1 class="mb-4">
+              👍Bonjour,je m'appelle 
+               <span class="fw-bold">Hamedine MBODJI</span>
+            </h1>
+            <p class="lead mb-4">
+              Développeur web passionné, spécialisé dans la création de sites web modernes, 
+              rapides et adaptés à tous les écrans. J'aide les entreprises, artisans et 
+              créateurs à donner vie à leurs projets en ligne, avec des solutions sur-mesure 
+              qui allient esthétique et performance
+            </p>
+            <h2 class="h4 text-light-50 mb-4">
+              Je conçois <span id="typing" class="typing"></span>
+            </h2>
+            <div class="d-flex gap-3">
+              <a href="#projets" class="btn btn-primary btn-lg"
+                >Voir mes projets</a
+              >
+              <a href="#contact" class="btn btn-outline-primary btn-lg"
+                >Me contacter</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <div class="hero-image">
+              <i class="fas fa-code fa-8x text-primary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Section À propos -->
+<section id="apropos" class="py-5 bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="fw-bold mb-5 text-white">À propos de moi</h2>
+        <div class="row g-4">
+
+        
+
+          <!-- Texte -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm" style="height:500px; overflow:hidden;">
+              <div class="card-body p-3 d-flex flex-column justify-content-center text-center" style="height:100%;">
+                <i class="fas fa-user-graduate fa-2x text-primary mb-2"></i>
+                <h5>Formation & Motivation</h5>
+                <p >
+                  Actuellement en stage, j'ai pu exercer le métier du développement pendant quelques mois.
+                  Ma passion pour la technologie et mon désir d'aider les entreprises m'ont poussé à 
+                  me spécialiser dans la création de sites web professionnels et à contribuer au développement
+                  du numérique au Sénégal.
+                </p>
+                <i class="fa fa-handshake fa-2x text-primary mb-2"></i>
+                <h5>Engagement</h5>
+                <ps>
+                  En tant que Développeur web, je comprends les besoins spécifiques des clients qui veulent 
+                  lancer leurs activités en ligne. Je propose des solutions digitales adaptées à vos services
+                  pour avoir plus de visibilité sur le net, avec un accompagnement optimisé et professionnel.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm" style="height:500px; overflow:hidden;">
+              <img src="image/img8.jpg" style="height:300%; width:100%; object-fit:cover;" alt="">
+            </div>
+          </div>
+
+          <!-- Texte -->
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="py-5">
+      <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-5">Mon Parcours</h2>
+        <div class="parcours-section reveal">
+          <div class="parcours-item">
+            <img
+              src="image/img2.jpg"
+              alt="Formation 2023"
+            />
+            <div class="parcours-content">
+              <h5>Formation Professionnelle en Développement Web</h5>
+              <p>
+                Apprentissage des bases : HTML, CSS, Bootstrap, PHP, GitHub,
+                Mysql, JavaScript, Laravel, Wordpress
+              </p>
+            </div>
+          </div>
+          <!-- licence -->
+          <div class="parcours-item">
+            <img
+              src="image/img14.jpeg"
+              alt="Formation 2023"
+            />
+            <div class="parcours-content">
+              <h5>Licence en Informatique</h5>
+              <p>
+                En Développement web à l'Université Cheick Hamidou Kane du Sénégal
+              </p>
+            </div>
+          </div>
+          <div class="parcours-item">
+            <img
+              src="image/img14.jpg"
+              alt="Projets 2024"
+            />
+            <div class="parcours-content">
+              <h5>Premiers Projets Clients</h5>
+              <p>Création de sites vitrines pour un coiffeur résidant à Dakar,parcelle</p>
+            </div>
+          </div>
+          <div class="parcours-item">
+            <img
+              src="image/img16.jpg"
+              alt="Futur 2024+"
+            />
+            <div class="parcours-content">
+              <h5>Spécialisation & Expansion</h5>
+              <p>
+                Développement de compétences avancées et création de contenu
+                digital fonctinel 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="py-5">
+      <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-5">Mes Compétences</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-code fa-3x text-primary mb-3"></i>
+              <h4>Développement Frontend</h4>
+              <p>HTML5, CSS3, JavaScript</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="85"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fab fa-bootstrap fa-3x text-primary mb-3"></i>
+              <h4>Frameworks CSS</h4>
+              <p>Bootstrap, Responsive Design</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="90"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fab fa-php fa-3x text-primary mb-3"></i>
+              <h4>Développement Backend</h4>
+              <p>PHP, Bases de données(Mysql), Laravel</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="75"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fab fa-github fa-3x text-primary mb-3"></i>
+              <h4>Versioning</h4>
+              <p>Git, GitHub</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="80"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-mobile-alt fa-3x text-primary mb-3"></i>
+              <h4>Design Responsive</h4>
+              <p>Sites adaptés mobile</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="85"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-users fa-3x text-primary mb-3"></i>
+              <h4>Accompagnement</h4>
+              <p>Formation et support</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="90"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-pen-fancy fa-3x text-primary mb-3"></i>
+              <h4>Rédaction Web</h4>
+              <p>Contenu SEO optimisé</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="85"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fab fa-laravel fa-3x text-primary mb-3"></i>
+              <h4>Laravel Framework</h4>
+              <p>Développement backend</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="70"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+              <h4>IA & Outils</h4>
+              <p>ChatGPT, Cursor, Canvas</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="80"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fas fa-share-alt fa-3x text-primary mb-3"></i>
+              <h4>Réseaux Sociaux</h4>
+              <p>TikTok, Facebook, Instagram</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="85"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="skill-card text-center p-4 reveal">
+              <i class="fab fa-wordpress fa-3x text-primary mb-3"></i>
+              <h4>WordPress</h4>
+              <p>Content Management System</p>
+              <div class="progress mb-2">
+                <div
+                  class="progress-bar bg-primary"
+                  data-progress="85"
+                  style="width: 0"
+                ></div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="py-5 bg-dark">
+      <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-4">Mes Projets</h2>
+        <div class="filter-group d-flex justify-content-center gap-2 mb-4">
+          <button
+            class="btn btn-outline-primary btn-sm filter-btn active"
+            data-filter="all"
+          >
+            Tous
+          </button>
+          <button
+            class="btn btn-outline-primary btn-sm filter-btn"
+            data-filter="coiffure"
+          >
+            Coiffure
+          </button>
+          <button
+            class="btn btn-outline-primary btn-sm filter-btn"
+            data-filter="restaurant"
+          >
+            Restaurant
+          </button>
+          <button
+            class="btn btn-outline-primary btn-sm filter-btn"
+            data-filter="couture"
+          >
+            Couture
+          </button>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="card project-card h-100 border-0 shadow-sm reveal"
+              data-category="coiffure"
+            >
+              <div class="card-img-top bg-primary text-white text-center py-4">
+                <img src="image/salon.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-white h2">Salon de Coiffure "Beauté Dakar"</h5>
+                <p class="card-text text-white">
+                  Site vitrine moderne avec galerie photos, prise de rendez-vous
+                  en ligne et présentation des services. Design élégant et
+                  professionnel.
+                </p>
+                <div class="d-flex gap-2 mb-3">
+                  <span class="badge bg-primary">HTML</span>
+                  <span class="badge bg-primary">CSS</span>
+                  <span class="badge bg-primary">Bootstrap</span>
+                </div>
+                <a href="https://hameddine776.github.io/shop/" type="submit" class="btn btn-outline-primary">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="card project-card h-100 border-0 shadow-sm reveal"
+              data-category="restaurant"
+            >
+              <div class="card-img-top bg-success text-white text-center py-4">
+                <img src="image/restaurant.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-white h2">Restaurant "Saveurs Dakar"</h5>
+                <p class="card-text text-white">
+                  Site web complet avec menu interactif, réservations en ligne,
+                  galerie photos et informations pratiques. Optimisé pour
+                  mobile.
+                </p>
+                <div class="d-flex gap-2 mb-3">
+                  <span class="badge bg-success">PHP</span>
+                  <span class="badge bg-success">MySQL</span>
+                  <span class="badge bg-success">Bootstrap</span>
+                </div>
+                <a href="#" class="btn btn-outline-success">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="card project-card h-100 border-0 shadow-sm reveal"
+              data-category="couture"
+            >
+              <div class="card-img-top bg-warning text-white text-center py-4">
+                <img src="image/couture.jpg" class="card-img-top" alt="">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-white h2">Atelier de Couture "Élégance"</h5>
+                <p class="card-text text-white">
+                  Boutique en ligne avec catalogue de vêtements, système de
+                  commande et gestion des clients. Interface intuitive et
+                  sécurisée.
+                </p>
+                <div class="d-flex gap-2 mb-3">
+                  <span class="badge bg-warning">PHP</span>
+                  <span class="badge bg-warning">JavaScript</span>
+                  <span class="badge bg-warning">Responsive</span>
+                </div>
+                <a href="#" class="btn btn-outline-warning">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="display-5 fw-bold mb-5">Travaillons ensemble !</h2>
+            <p class="lead mb-5">
+              Vous avez un projet web ? Je suis là pour vous accompagner dans la
+              création de votre site web professionnel. Contactez-moi pour un devis
+              gratuit et personnalisé.
+            </p>
+            <div class="cv-download-section mb-5">
+              <div class="cv-card">
+                <div class="cv-icon">
+                  <i class="fas fa-file-pdf fa-3x text-primary"></i>
+                </div>
+                <div class="cv-content">
+                  <h4>Mon CV</h4>
+                  <p class="text-visible mb-3">
+                    Téléchargez mon CV pour plus d'informations sur mon parcours
+                    et mes compétences
+                  </p>
+                  <a href="cv.pdf" download class="btn btn-primary btn-lg">
+                    <i class="fas fa-download me-2"></i>Télécharger CV
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="contact-card text-center p-4">
+              <i class="fas fa-phone fa-2x text-primary mb-3"></i>
+              <h5>Téléphone:</h5>
+              <p class="text-visible">+221 78 223 72 22</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-card text-center p-4">
+              <i class="fas fa-envelope fa-2x text-primary mb-3"></i>
+              <h5>Email:</h5>
+              <p class="text-visible">mbodjihamedineyakhya@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-card text-center p-4">
+              <i class="fas fa-map-marker-alt fa-2x text-primary mb-3"></i>
+              <h5>Localisation:</h5>
+              <p class="text-visible">Dakar, Sénégal</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 mx-auto">
+            <form class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Votre nom"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Votre email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Sujet"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Votre message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Envoyer le message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; 2025 - Développeur Full stack. Tous droits réservés.
+          <pre>Site développé par Hamedine Mbodji</pre>
+        </p>
+      </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
