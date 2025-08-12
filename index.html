@@ -447,7 +447,7 @@
                   <span class="badge bg-success">MySQL</span>
                   <span class="badge bg-success">Bootstrap</span>
                 </div>
-                <a href="#" class="btn btn-outline-success">Voir le projet</a>
+                <a href="https://mon-projet-alpha.vercel.app/" class="btn btn-outline-success">Voir le projet</a>
               </div>
             </div>
           </div>
@@ -471,7 +471,7 @@
                   <span class="badge bg-warning">JavaScript</span>
                   <span class="badge bg-warning">Responsive</span>
                 </div>
-                <a href="#" class="btn btn-outline-warning">Voir le projet</a>
+                <a href="https://mon-projet-alpha.vercel.app/" class="btn btn-outline-warning">Voir le projet</a>
               </div>
             </div>
           </div>
@@ -534,11 +534,12 @@
         </div>
         <div class="row mt-5">
           <div class="col-lg-6 mx-auto">
-            <form class="contact-form">
+            <form action="https://formspree.io/f/movlrlpj" method="POST" class="contact-form">
               <div class="row g-3">
                 <div class="col-md-6">
                   <input
                     type="text"
+                    name="nom"
                     class="form-control"
                     placeholder="Votre nom"
                     required
@@ -547,6 +548,7 @@
                 <div class="col-md-6">
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
                     placeholder="Votre email"
                     required
@@ -555,6 +557,7 @@
                 <div class="col-12">
                   <input
                     type="text"
+                    name="sujet"
                     class="form-control"
                     placeholder="Sujet"
                     required
@@ -564,12 +567,13 @@
                   <textarea
                     class="form-control"
                     rows="5"
+                    name="message"
                     placeholder="Votre message"
                     required
                   ></textarea>
                 </div>
                 <div class="col-12 text-center">
-                  <button type="submit" class="btn btn-primary btn-lg">
+                  <button type="submit"  class="btn btn-primary btn-lg">
                     Envoyer le message
                   </button>
                 </div>
